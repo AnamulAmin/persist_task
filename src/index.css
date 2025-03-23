@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --purple: #7a56d6;
+  --violet-light: #a58ae9;
+  --pink: #efeafc;
+  --violet: #7a56d6;
+  --black: black;
+  --card-back: #b6abe8ab;
+  --transparent: #fff0;
+  --card-gard: var(--card-back);
+}
+
+.team-img-mask {
+  background-image: linear-gradient(#fff0, #08020f 85%);
+  position: absolute;
+  inset: 0%;
+}
+
+.css-button {
+  grid-column-gap: 12px;
+  grid-row-gap: 12px;
+  border: 1px solid var(--violet);
+
+  background-image: linear-gradient(
+    90deg,
+    #3f2d6d,
+    #7a56d6 33%,
+    #9077ce 66%,
+    #7a56d6
+  );
+
+  background-size: 200%; /* Increased for smooth movement */
+  width: 200px;
+  margin-top: 0;
+  box-shadow: 0 1px 5px 0 var(--violet);
+  color: #fff;
+  border-radius: 9px;
+  flex-flow: row;
+  justify-content: center;
+  align-self: flex-start;
+  align-items: center;
+
+  height: 30%;
+  margin-left: 0;
+  margin-right: auto;
+  padding: 10px 0px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1;
+  text-decoration: none;
+
+  transition: background-position 0.5s linear; /* Correct animation setup */
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+.css-button:hover {
+  background-position-x: 100%;
+}

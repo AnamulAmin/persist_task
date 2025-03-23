@@ -1,0 +1,40 @@
+@keyframes background-pan {
+  25% {
+    background-position-x: -100%;
+  }
+  50% {
+    background-position-x: -200%;
+  }
+  75% {
+    background-position-x: -300%;
+  }
+  100% {
+    background-position-x: -400%;
+  }
+}
+
+.magic-text {
+  animation: background-pan 5s ease infinite;
+  background: linear-gradient(
+    to right,
+    var(--purple),
+    var(--violet-light),
+    var(--pink),
+    var(--purple)
+  );
+  background-size: 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  white-space: nowrap;
+  background-position-x: -50%;
+  background-position-y: -50%;
+}
+
+.heading-41 {
+  color: #fff;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 5rem;
+  line-height: 1.1;
+}

@@ -1,0 +1,14 @@
+.css-button.accept-challenge-btn.new-fellowship-btn {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  align-self: center;
+  width: 200px;
+  height: 40px;
+  min-height: 40px;
+  max-height: 40px;
+  margin-top: 10px;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+}
