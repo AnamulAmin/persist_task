@@ -21,7 +21,7 @@ export default function Navbar() {
     },
   ];
   return (
-    <nav className="bg-primary  fixed w-full z-20 top-0 start-0  ">
+    <nav className="bg-primary  fixed w-full z-[9999] top-0 start-0  ">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <Link to="/">
           <img

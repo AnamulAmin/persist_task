@@ -1,0 +1,52 @@
+.page-padding {
+  width: 100%;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 4.5rem;
+  padding-right: 4.5rem;
+  display: inline;
+}
+.fellowship-content-wrap {
+  border: 1px solid var(--violet);
+  text-align: center;
+  background-image: url("https://cdn.prod.website-files.com/623ae64112adcf772da9687e/66b11fd45340feac208ae1ae_Untitled%20design%20(48).png");
+  background-position: 50%;
+  background-size: cover;
+  border-radius: 14px;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 30px;
+  display: flex;
+}
+.fellowship-head {
+  text-align: left;
+  margin-bottom: 0.5rem;
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+.fellowship-subhead {
+  text-align: center;
+  font-size: 0.9rem;
+  font-style: italic;
+  font-weight: 600;
+}
+.fellowship-cta-on-startupathon {
+  border: 1px solid var(--violet);
+  background-color: var(--violet);
+  box-shadow: 0 2px 5px 0 var(--violet);
+  border-radius: 8px;
+  align-self: center;
+  width: 250px;
+  margin-top: 10px;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.fellowship-cta-on-startupathon:hover {
+  background-color: var(--transparent);
+  box-shadow: 2px 2px 11px 2px var(--violet);
+}
