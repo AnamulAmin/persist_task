@@ -9,6 +9,7 @@ import FoundIdea from "./components/FoundIdea/FoundIdea";
 import VideoComponent from "./components/VideoComponent/VideoComponent";
 import GetIdea from "./components/GetIdea/GetIdea";
 import StartupathonChallengers from "./components/StartupathonChallengers/StartupathonChallengers";
+import EliteFounder from "./components/EliteFounder/EliteFounder";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -31,6 +32,7 @@ function App() {
       />
       <GetIdea />
       <StartupathonChallengers />
+      <EliteFounder />
     </div>
   );
 }

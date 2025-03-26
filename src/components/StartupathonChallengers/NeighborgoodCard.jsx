@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./StartupathonChallengers.css";
 const NeighborgoodCard = () => {
   return (
     <div
@@ -13,10 +13,10 @@ const NeighborgoodCard = () => {
           href="https://neighborgood.io/"
           target="_blank"
           rel="noopener noreferrer"
-          className="link-block-14 w-inline-block"
+          className="flex gap-6 items-center justify-center"
         >
           <h2 className="pro-head pro-head-on-comple-card">Neighborgood</h2>
-          <div className="companylogo">
+          <div className="max-w-[40px] ">
             <img
               src="https://cdn.prod.website-files.com/623eb8c6eb9b328644ade032/673377d2636812ab650f04a9_65ca66431f754cba27bad9c4_NaighborGood(Logo)%20(1).png"
               loading="lazy"
@@ -35,7 +35,7 @@ const NeighborgoodCard = () => {
             className="image-27"
           />
         </div>
-        <div className="completed-hero-text-info">
+        <div className="w-1/2">
           <div className="selected-candi-name">Purnendu Thamb</div>
           <div className="selecetd-candi-designation">
             Lead Developer, Neighborgood.
@@ -51,7 +51,7 @@ const NeighborgoodCard = () => {
                 src="https://cdn.prod.website-files.com/623ae64112adcf772da9687e/66e81ea7c52c2eb1db6a973f_ico_soc-03.svg"
                 loading="lazy"
                 alt="LinkedIn Icon"
-                className="image-29"
+                className="image-29 "
               />
             </a>
           </div>
@@ -69,7 +69,7 @@ const NeighborgoodCard = () => {
           </a>
         </div>
       </div>
-      <div className="w-layout-hflex compl-off-ctc-wrap">
+      <div className="w-layout-hflex compl-off-ctc-wrap mb-3">
         <div className="text-block-61">
           Initial Funding Offered :&nbsp;&nbsp;
         </div>
@@ -79,7 +79,7 @@ const NeighborgoodCard = () => {
         href="/completed-startupathon-projects/Neighbourgood"
         target="_blank"
         rel="noopener noreferrer"
-        className="css-button accept-challenge-btn new-fellowship-btn fello-btn-on-startupathon-page view-challege-details-btn w-inline-block"
+        className="css-button accept-challenge-btn new-fellowship-btn fello-btn-on-startupathon-page view-challege-details-btn  w-full flex justify-center items-center mt-3"
       >
         <div className="button-text-3">View More Details</div>
       </a>

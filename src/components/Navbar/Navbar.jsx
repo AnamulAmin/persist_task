@@ -31,7 +31,7 @@ export default function Navbar() {
           />
         </Link>
         <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-          <button type="button" className="css-button">
+          <button type="button" className="css-button w-[200px]">
             Apply For Fellowship
           </button>
           <button

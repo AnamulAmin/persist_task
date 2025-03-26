@@ -65,7 +65,7 @@
   );
 
   background-size: 200%; /* Increased for smooth movement */
-  width: 200px;
+  /* width: 200px; */
   margin-top: 0;
   box-shadow: 0 1px 5px 0 var(--violet);
   color: #fff;
@@ -75,7 +75,7 @@
   align-self: flex-start;
   align-items: center;
 
-  height: 30%;
+  /* height: 30%; */
   margin-left: 0;
   margin-right: auto;
   padding: 10px 0px;
