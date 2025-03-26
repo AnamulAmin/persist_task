@@ -5,19 +5,19 @@ export default function Navbar() {
   const links = [
     {
       name: "Ongoing Startupathon",
-      href: "#",
+      href: "#ongoing-startupathon",
     },
     {
       name: "Completed Startupathon",
-      href: "#",
+      href: "#completed-startupathon",
     },
     {
       name: "Startupathon Guide",
-      href: "#",
+      href: "#startupathon-guide",
     },
     {
-      name: "How To Win",
-      href: "#",
+      name: "Mentor Network",
+      href: "#mentor_network",
     },
   ];
   return (

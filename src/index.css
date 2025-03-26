@@ -22,6 +22,10 @@
   --transparent: #fff0;
   --card-gard: var(--card-back);
 }
+body,
+html {
+  scroll-behavior: smooth;
+}
 .container-large {
   width: 100%;
   max-width: 80rem;

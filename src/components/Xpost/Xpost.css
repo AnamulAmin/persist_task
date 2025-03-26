@@ -1,0 +1,39 @@
+.tips-video-sec-head.last-cont-sec-head {
+  font-size: 2.2rem;
+  font-weight: 400;
+}
+.tips-video-sec-head {
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 1.9rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+@media screen and (min-width: 1280px) {
+  .last-sec-photo-wrap {
+    width: 1000px;
+  }
+}
+.last-sec-photo-wrap {
+  justify-content: center;
+  align-items: center;
+  width: 900px;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  border: 0px none var(--violet);
+  border-radius: 20px;
+}
+
+.code-embed-22 {
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  border-radius: 20px;
+}

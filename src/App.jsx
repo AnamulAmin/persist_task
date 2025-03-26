@@ -10,6 +10,10 @@ import VideoComponent from "./components/VideoComponent/VideoComponent";
 import GetIdea from "./components/GetIdea/GetIdea";
 import StartupathonChallengers from "./components/StartupathonChallengers/StartupathonChallengers";
 import EliteFounder from "./components/EliteFounder/EliteFounder";
+import Xpost from "./components/Xpost/Xpost";
+import NewsLetter from "./components/NewsLetter/NewsLetter";
+import Footer from "./components/Footer/Footer";
+import Challenges from "./components/Challanges/Challenges";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -19,6 +23,7 @@ function App() {
       <Navbar />
       <Banner />
       <StartupAthon />
+      <Challenges />
       <FoundIdea />
       <VideoComponent
         // title="Startupathon"
@@ -33,6 +38,9 @@ function App() {
       <GetIdea />
       <StartupathonChallengers />
       <EliteFounder />
+      <Xpost />
+      <NewsLetter />
+      <Footer />
     </div>
   );
 }

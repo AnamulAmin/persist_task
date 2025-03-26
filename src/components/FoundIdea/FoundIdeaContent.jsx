@@ -8,10 +8,14 @@ export default function FoundIdeaContent() {
       (entries) => {
         entries.forEach((entry) => {
           const target = entry.target;
+          const timeline_circle = target.querySelector(".timeline_circle");
+
           if (entry.isIntersecting) {
             target.style.opacity = 1;
             // target.style.transform = "translateY(0)";
             target.style.transition = "opacity 0.5s ease, transform 0.5s ease";
+            timeline_circle.style.backgroundColor = "#fff";
+            timeline_circle.style.borderColor = "#343434";
           } else {
             target.style.opacity = 0.25;
             // target.style.transform = "translateY(20px)";
@@ -96,7 +100,7 @@ export default function FoundIdeaContent() {
           </div>
           <div className="timeline_centre">
             <div
-              className="timeline_circle step-1"
+              className="timeline_circle step-1 rounded"
               style={{
                 backgroundColor: "rgb(65, 65, 65)",
                 backgroundImage: `url(${step.src})`,

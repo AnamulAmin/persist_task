@@ -16,7 +16,7 @@ export default function Heading({ title, subTitle }) {
   `,
           transformStyle: "preserve-3d",
         }}
-        className="heading-32 opacity-100 transform translate-x-0 translate-y-0 translate-z-0 scale-100 rotate-x-0 rotate-y-0 rotate-z-0 skew-x-0 skew-y-0 transform-gpu"
+        className="heading-32  opacity-100 font-bold translate-x-0 translate-y-0 translate-z-0 scale-100 rotate-x-0 rotate-y-0 rotate-z-0 skew-x-0 skew-y-0 transform-gpu"
       >
         {title}
       </h1>

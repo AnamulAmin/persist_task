@@ -4,7 +4,7 @@ import "./EliteFounder.css";
 import EliteFounderCard from "./EliteFounderCard";
 export default function EliteFounder() {
   return (
-    <div className="mt-24">
+    <div className="pt-24" id="mentor_network">
       <Heading
         title={`By getting accepted you unlock access to our elite founder network.`}
         subTitle={`Join Persist and gain access to our 400+ millionaire and billionaire startup network.
